@@ -20,7 +20,7 @@ def read_menber_list(filename):
 ##############################文件主体################################################
 post_session = get_info.get_session()
 
-g_id = input('请输入骑空团ID，如果直接跳过则默认读取同目录下的menber_list.txt中的成员id：')
+g_id = input(1323543)
 if g_id == '':
 	menber_list = read_menber_list('menber_list.txt')
 else:
